@@ -27,7 +27,7 @@ def encrypter(text, encrypt=True):
         #print(modifier)
         
         for char in word:
-            print(char)
+            #print(char)
             if alpha.find(char) != -1:  
                 if alpha.find(char)+modifier >= len(alpha):
                     shifted = alpha[alpha.find(char)+modifier-26]
